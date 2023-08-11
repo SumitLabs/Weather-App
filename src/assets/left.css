@@ -1,0 +1,53 @@
+.left{
+    height: 100%;
+    background: url('weather01.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    border-radius: 2px;
+    filter:brightness(0.8);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.time-date{
+    padding-top:400px;
+    font-size: 2rem;
+    
+}
+.d-d{
+   display: flex;
+   font-size: 1rem;
+}
+.date{
+    padding-left: 12px;
+}
+.temp h1{
+    padding-top:380px;
+    font-size: 5rem;
+}
+.state{
+    font-size: 1.7rem;
+}
+@media screen and (min-width: 1024px){
+    .temp h1{
+        padding-top:380px;
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 584px){
+    .place {
+        margin-left: -30px;
+    }
+    .time{
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 329px){
+    .place {
+        margin-left: -59px;
+    }
+}

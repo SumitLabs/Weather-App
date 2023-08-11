@@ -1,0 +1,39 @@
+.app{
+  height: 100vh;
+  width: 100%;
+  background: url('bg1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media screen and (min-width: 700px){
+  .app{
+    background-position: 69%;
+  }
+}
+@media screen and (min-width: 425px){
+  .app{
+    background-position: 9%;
+  }
+
+}
+@media screen and (min-width: 320px)
+{
+  .app{
+    background-position: 6%;
+  }
+}
+.current-weather{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.msg p{
+  color: #fff;
+  font-size: 1rem;
+}
+

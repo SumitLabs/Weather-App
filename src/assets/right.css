@@ -1,0 +1,86 @@
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+   width: 100px;
+
+}
+.weather-type h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.hr{
+    background-color: #000;
+    border: none;
+    position: absolute;
+    height: 2px;
+    width: 46%;
+    right: 2%;
+}
+.search{
+    display: flex;
+    margin: 9px 0px;
+    width: 70%;
+    height: 27px;
+}
+.search >input{
+    width: 100%;
+    outline: none;
+    
+}
+.search i{
+margin-left: 12px;
+color: #fff;
+margin-top: 8px;
+
+}
+.list ul{
+    list-style: none;
+    margin-top: 3rem;
+
+}
+.list ul li{
+    color: #fff;
+    margin: 1rem 0;
+    font-weight:bolder;
+}
+.location h4{
+    font-size: 2rem;
+    color: #fff;
+    font-weight:bolder;
+}
+/* .error{
+    color: red;
+    font-size: 1.2em;
+    font-weight: bolder;
+} */
+@media screen and (max-width: 768px){
+    .icon i{
+        
+        font-size: 8rem;
+    }
+}
+@media screen and (max-width: 584px){
+    .icon i{
+        
+        font-size: 3rem;
+    }
+    .right{
+        width: 82%;
+    }
+    .list ul li{
+       font-size: 1rem;
+    }
+}
+@media screen and (max-width: 329px){
+    .list ul li{
+        font-size: 0.8rem;
+        
+     }
+}
